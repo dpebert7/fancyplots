@@ -79,3 +79,5 @@ ggplot(data = df, aes(y = starting_spaces, x = tiles_played)) +
   annotate("text", x = c(2), y = c(24), 
            label = c("Can I start a new company?"), 
            color="black", size=5)
+
+ggsave('acquire.png')
